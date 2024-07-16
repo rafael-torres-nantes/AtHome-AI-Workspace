@@ -25,7 +25,20 @@ def check_nvcc_version():
     except FileNotFoundError:
         print("nvcc not found. Please ensure CUDA is installed and nvcc is in your PATH.")
 
+def check_nvidia_smi():
+    try:
+        result = subprocess.run(['nvidia-smi'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        if result.returncode == 0:
+            print("nvidia-smi Output:")
+            print(result.stdout)
+        else:
+            print("Failed to run nvidia-smi")
+            print(result.stderr)
+    except FileNotFoundError:
+        print("nvidia-smi not found. Please ensure NVIDIA drivers are installed and nvidia-smi is in your PATH.")
+
 if __name__ == "__main__":
     check_pytorch_version()
     check_cuda()
     check_nvcc_version()
+    check_nvidia_smi()
