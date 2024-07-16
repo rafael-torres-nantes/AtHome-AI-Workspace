@@ -1,6 +1,13 @@
 # Requirements Mic
-pip3 install pyaudio
-pip3 install sounddevice
+pyaudio
 
 # Requirements WebCam
-pip3 install opencv-python
+opencv-python
+pygrabber
+
+# Requirements TTS
+pyttsx3
+gTTS
+
+Pyrebase4
+TTS
