@@ -6,7 +6,6 @@ import time
 class MicrophoneDevice:
     def __init__(self):
         self.pa = pyaudio.PyAudio()
-        self.devices = self.list_devices()
     
     def list_devices(self):
         """
