@@ -1,0 +1,6 @@
+# Requirements Mic
+pip3 install pyaudio
+pip3 install sounddevice
+
+# Requirements WebCam
+pip3 install opencv-python
