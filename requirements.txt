@@ -9,5 +9,13 @@ pygrabber
 pyttsx3
 gTTS
 
-Pyrebase4
-TTS
+# Pyrebase4
+# TTS
+
+# Requirements STT
+openai-whisper
+setuptools-rust
+numpy<2
+torch 
+torchvision 
+torchaudio
