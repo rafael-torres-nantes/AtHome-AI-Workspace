@@ -11,11 +11,11 @@ Bem-vindo ao __AtHome-AI-Workspace__, um repositório dedicado à criação e au
 
 ## Sobre o Repositório
 
-O __AtHome-AI-Workspace__ é um projeto focado em automações e tarefas inteligentes para o robô da LARC AT HOME. Com este repositório, você poderá desenvolver e testar diferentes funcionalidades para melhorar a interação e a eficiência do robô.
+O __AtHome-AI-Workspace__ é um projeto focado em automações e tarefas inteligentes para o robô da LARC@HOME. Com este repositório, você poderá desenvolver e testar diferentes funcionalidades para melhorar a interação e a eficiência do robô.
 
 ### O que você pode fazer com este repositório:
 - __Reconhecimento Facial__: Implementar e testar algoritmos para identificar e autenticar pessoas.
-- __Quizzes e Jogos__: Criar e gerenciar quizzes e jogos interativos para o robô.
+- __Quizzes__: Criar e gerenciar quizzes interativos para o robô.
 - __Automação de Tarefas__: Desenvolver e integrar automações para diversas funcionalidades do robô.
 
 ## Estrutura do Repositório
