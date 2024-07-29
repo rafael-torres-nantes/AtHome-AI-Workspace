@@ -1,4 +1,4 @@
-# 🤖 AtHome-AI-Workspace
+# 🦜 AtHome-AI-Workspace
 
 Bem-vindo ao __AtHome-AI-Workspace__, um repositório dedicado à criação e automação de tarefas para o robô do Ararabots. Este repositório visa desenvolver e integrar funcionalidades avançadas para o robô da LARC AT HOME, incluindo reconhecimento facial, quizzes e muito mais.
 
