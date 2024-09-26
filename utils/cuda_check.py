@@ -36,9 +36,12 @@ def check_nvidia_smi():
             print(result.stderr)
     except FileNotFoundError:
         print("nvidia-smi not found. Please ensure NVIDIA drivers are installed and nvidia-smi is in your PATH.")
-
+    
 if __name__ == "__main__":
     check_pytorch_version()
+    print('-+' * 30)
     check_cuda()
-    check_nvcc_version()
+    print('-+' * 30)
     check_nvidia_smi()
+    print('-+' * 30)
+    check_nvcc_version()
